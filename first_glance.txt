@@ -1,0 +1,20 @@
+#First Glance
+
+Look at data and info given
+
+celeba - labels
+* number, name, gender, smiling
+* gender: 1=male, -1=female
+* smiling: -1=no, 1=yes
+
+cartoon_set - labels
+* number, eye colour, face shape, name
+* eye colour: 5 types
+* face shape: 5 types
+
+
+In code:
+* Load images
+* Separate training (75%) and test (25%) data
+* Train
+* Test - compare with labels given
