@@ -1,0 +1,19 @@
+celeba:
+
+- go through each photo, check if a face is detected, if so extract landmarks, keep track of faces which were not detected
+- pickle the data as the 5000 images takes too long each time
+- 75% training 25% test data to see model accuracy
+- now we can compute relationships between different combinations of the 68 points to train an svm
+- initial ideas for smiling (naive model) - width of mouth vs width of face, height of eyes vs width of eyes, distance between corner of mouth and corner of eyes etc
+- initial ideas for male/female (naive model) - bottom lip to chin vs face height, width of chin vs face width, height of nose vs width of nose etc
+- can use ensemble prediction for both tasks potentially - randomly pick 20 facial landmarks, pair them up and find distances, pair distances up and find ratios, train svm and report accuracy on test
+- train 20 models, pick top 5 highest accuracy
+- use majority voting and evaluate accuracy of ensemble method
+
+cartoon:
+
+- find key pixel locations where every cartoon image has a similar characteristic e.g. eye colour is always in pixel x,y regardless of eye size/shape
+- find pixel loc for eye colour, skin colour, glasses tint, eye white(to check tint), beard colour
+- for eye colour task - check for glasses - subtract tint from eye colour (unless dark sunglasses then decide what to do), train svm on the eye colour, check prediction
+- could  use ensemble method with different equations for subtracting tint colour from eye colour (rgb, cmyk, ryb etc)
+- for face shape task - check if beard, then use face outline near ears. If no beard, use key positions e.g. chin lowest point, jaw locations etc. then train svm
