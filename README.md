@@ -9,3 +9,5 @@ The tasks are as follows:
   * Multiclass tasks (cartoon_set)-
     * Face shape recognition (5 types)
     * Eye colour recognition (5 types)
+
+The final code is stored in the file: 'AMLS_20_21_17010729'
