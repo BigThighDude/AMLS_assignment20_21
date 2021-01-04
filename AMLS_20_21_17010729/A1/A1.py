@@ -72,8 +72,8 @@ def procnew(points, face_list):
 # Creates SVM
 def create_model():
     print("Creating model...")
-    # clf = svm.SVC(kernel='poly', degree=3, probability=True, C=1, gamma=1e-5, tol=1e-13)     # Create model object using selected hyperparameters
     clf = svm.SVC(kernel='linear', probability=True, C=10, gamma=1e-4)
+    
     return clf  # The model object is passed back to the main function
 
 # Train SVM

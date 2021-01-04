@@ -51,48 +51,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="A1_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AMLS_20_21_17010729" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../AMLS_20_21_17010729/A1" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../AMLS_20_21_17010729/A1/A1_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="eye_colour_better" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AMLS_20_21_17010729" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../C_Proper" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../C_Proper/eye_colour_better.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AMLS_20_21_17010729" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,6 +93,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in A1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="AMLS_20_21_17010729" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/A1/A1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in B1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="AMLS_20_21_17010729" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/B1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/B1/B1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in B2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="AMLS_20_21_17010729" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.pytest in A1.py" />
+        <item itemvalue="Python tests.pytest in B1.py" />
         <item itemvalue="Python tests.pytest in B2.py" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.A1_process" />
-        <item itemvalue="Python.eye_colour_better" />
       </list>
     </recent_temporary>
   </component>
@@ -185,22 +175,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="241" key="GridCell.Tab.0.bottom" timestamp="1609730995817">
+    <state width="1899" height="286" key="GridCell.Tab.0.bottom" timestamp="1609763978978">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="241" key="GridCell.Tab.0.bottom/1920.34.1680.1020/0.0.1920.1050@0.0.1920.1050" timestamp="1609730995817" />
-    <state width="1899" height="241" key="GridCell.Tab.0.center" timestamp="1609730995817">
+    <state width="1899" height="286" key="GridCell.Tab.0.bottom/1920.34.1680.1020/0.0.1920.1050@0.0.1920.1050" timestamp="1609763978978" />
+    <state width="1899" height="286" key="GridCell.Tab.0.center" timestamp="1609763978978">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="241" key="GridCell.Tab.0.center/1920.34.1680.1020/0.0.1920.1050@0.0.1920.1050" timestamp="1609730995817" />
-    <state width="1899" height="241" key="GridCell.Tab.0.left" timestamp="1609730995817">
+    <state width="1899" height="286" key="GridCell.Tab.0.center/1920.34.1680.1020/0.0.1920.1050@0.0.1920.1050" timestamp="1609763978978" />
+    <state width="1899" height="286" key="GridCell.Tab.0.left" timestamp="1609763978978">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="241" key="GridCell.Tab.0.left/1920.34.1680.1020/0.0.1920.1050@0.0.1920.1050" timestamp="1609730995817" />
-    <state width="1899" height="241" key="GridCell.Tab.0.right" timestamp="1609730995817">
+    <state width="1899" height="286" key="GridCell.Tab.0.left/1920.34.1680.1020/0.0.1920.1050@0.0.1920.1050" timestamp="1609763978978" />
+    <state width="1899" height="286" key="GridCell.Tab.0.right" timestamp="1609763978978">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="241" key="GridCell.Tab.0.right/1920.34.1680.1020/0.0.1920.1050@0.0.1920.1050" timestamp="1609730995817" />
+    <state width="1899" height="286" key="GridCell.Tab.0.right/1920.34.1680.1020/0.0.1920.1050@0.0.1920.1050" timestamp="1609763978978" />
     <state x="992" y="0" width="729" height="636" key="dock-window-1" timestamp="1609694346510">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

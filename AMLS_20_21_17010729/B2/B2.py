@@ -26,6 +26,7 @@ def main(sel, model, cfm):
         print("Number of validation samples: ", len(x_vald))
         accuracy = test_model(model, x_vald, y_vald)    # Model is validated using x and y validation data
         print("Accuracy of validation set: ", str(accuracy), "\n")
+
         if cfm==1:  # Use input arg 3 - Arg1==1 plots the confusion matrix
             disp = plot_confusion_matrix(model, x_vald, y_vald, cmap=plt.cm.Blues)  # Generate confusion matrix
             print(disp.confusion_matrix)

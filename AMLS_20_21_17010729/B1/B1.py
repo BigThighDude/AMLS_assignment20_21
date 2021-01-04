@@ -25,6 +25,7 @@ def main(sel, model, cfm):
         print("Number of validation samples: ", len(x_vald))
         accuracy = test_model(model, x_vald, y_vald)    # Model is validated using x and y validation data
         print("Accuracy of validation set: ", str(accuracy), "\n")
+
         if cfm==1:  # Use input arg 3 - Arg1==1 plots the confusion matrix
             disp = plot_confusion_matrix(model, x_vald, y_vald, cmap=plt.cm.Blues)  # Generate confusion matrix
             print(disp.confusion_matrix)
@@ -108,9 +109,9 @@ def import_data(directory):
         no_slice = len(slice_points)    # Number of slices (3 slices)
         points = np.zeros(shape=(no_slice, no_pics, 1))     # Samples will be stored in this array
         for m in range(0, no_pics):     # For each image
+            img = cv2.imread(os.path.join(img_src, y_name[m]))  # Open the image
+            img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)  # Convert colour format from RGB to BGR (cv2 works in BGR)
             for n in range(0, no_slice):    # For each slice
-                img = cv2.imread(os.path.join(img_src,y_name[m]))   # Open the image
-                img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)  # Convert colour format from RGB to BGR (cv2 works in BGR)
                 slice_d = slice_points[n][0][1]     # Depth of the slice
                 slice_s = slice_points[n][0][0]     # Start point of the slice
                 slice_e = slice_points[n][1][0]     # End point of the slice
@@ -127,7 +128,7 @@ def import_data(directory):
                     points[n][m] = int(pos_mid)     # The position of this minimum is recorded as a datapoint for this image, for this sample
                 else:   # If the position is not black, this means there is facial hair obscuring the outline
                     if n == 0:  # For slice 1, an average of each of the face shapes is taken
-                        points[n][m] = 53.4     # If facial hair is obscuring the outline at thsi slice, assign this average to the image for this slice
+                        points[n][m] = 53.4     # If facial hair is obscuring the outline at thsi slice, assign this feature average to the image for this slice
                     elif n == 1:    # For slice 2
                         points[n][m] = 52.0
                     elif n == 2:    # For slice 3
