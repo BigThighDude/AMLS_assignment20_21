@@ -1,4 +1,4 @@
-##Open the main file and run as is or comment out the clearly labelled sections if you wish to exclude specific tasks. Can change impur argument to generate confusion matrix for each of the tasks, as well as for the training or testing outcomes.
+##Open the main file and run as is or comment out the clearly labelled sections if you wish to exclude specific tasks. Can change imput argument to generate confusion matrix for each of the tasks, as well as for the training or testing outcomes.
 
 Need to upload 4 files to the dataset folder in the same format as the given data:
 - Datasets
